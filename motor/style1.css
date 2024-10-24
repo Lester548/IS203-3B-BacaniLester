@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icons i {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* Search and Product List */
+.search-bar {
+    margin: 20px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 23%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #25272e;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Modal Styles */
+.modal-content {
+    background-color: #25272e; /* Change modal background color */
+    color: #fff; /* Set text color to white for better visibility */
+}
+
